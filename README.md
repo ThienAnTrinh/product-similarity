@@ -19,3 +19,11 @@ Different model architectures were be built, trained and benchmarked. Siamese ne
 ### Dataset
 This project uses the ["WDC Product Data Corpus and Gold Standard for Large-Scale Product Matching (LSPM)" dataset](http://webdatacommons.org/largescaleproductcorpus/v2/).
 The training dataset is provided in four different sizes, namely small (16.6 MB), medium (47 MB), large (191 MB) and xlarge (405.7 MB) in json format. The small dataset will be used as it fits the available resources.
+
+### Results
+
+*Interaction* -> *representation* gave higher accuracy compared to *representation* -> *interaction*.
+
+*(Refer to the notebook for more detail)*
+
+<img src="asset/screenshots/Accuracy.png"/>
